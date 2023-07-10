@@ -12,7 +12,7 @@ int main(){
     
     int numOfColors = sizeof(rainbowColors) / sizeof(rainbowColors[0]);
 
-    while(0 < 1){
+    while(1){
         for(int i = 0; i < numOfColors; i++){
             printf("%shewwo, world.\033[0m\n", rainbowColors[i]);
         };
